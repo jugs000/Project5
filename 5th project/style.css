@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    background-image: url(./bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header{
+    display: block;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100px;
+}
+.logo{
+   width: 120px;
+  
+}
+.div-logo{
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.list {
+    display: flex;
+    margin-top:18px;
+    
+}
+.list ul {
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    margin-right: 400px;
+    font-size: 22px;
+
+}
+ul li a{
+    display: flex;
+    text-decoration: none;
+
+}
+/* button{
+    size: 30px;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-weight: 700;
+    background-color: rgb(170, 15, 170);
+    margin-top: 30px;
+
+} */
+
+/* section */
+
+section{
+    text-align: center;
+    
+    
+}
+h1{
+    font-size: 90px;
+    margin-top: 175px;
+}
+p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.btn-1{
+    size: 30px;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-weight: 700;
+    background-color: rgb(170, 15, 170);
+    margin-top: 20px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    
+}
+.btn-1:hover{
+    /* margin-top: 1px; */
+    font-size: 25px;
+}
+.btn-2{
+    size: 30px;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-weight: 700;
+    background-color: rgb(170, 15, 170);
+    margin-top: 30px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+
+}
+.btn-2:hover{
+    /* margin-top: 1px; */
+    font-size: 30px;
+}
+a:hover{
+    transition: all 0.2s ease-in-out;
+    font-size: 30px;
+
+}
+
